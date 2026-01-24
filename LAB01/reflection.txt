@@ -1,0 +1,14 @@
+In this lab, I learned the basics of python and how it is different from C++. 
+One thing I liked about Python is that the code is shorter and easier to read. 
+I did not need to worry about variable types or semicolons,
+which made the code faster and easier to write. Python also
+looks more like normal English, which helped me understand what the code was doing.
+
+One thing that was different than I expected is that Python uses certain 
+indentation to control how the code works. In C/C++, indentation is mostly 
+for readability, but in Python it is required for the program to run correctly.
+ Python also does not need return types for functions, which is different from C++.
+
+Python and C/C++ are similar because they both use loops, functions, and conditionals.
+ However, Python needs less code and lets me focus more on the program logic. In C++, 
+ I find that I need to be more careful with syntax and data types.
