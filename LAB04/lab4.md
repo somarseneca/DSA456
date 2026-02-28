@@ -39,9 +39,7 @@ If it guesses wrong, it has to redo work, which slows the program down.
 
 Informational entropy is a term created by Claude Shannon. It describes the amount of randomness or disorder in data.
 
-In sorting:
-- A random list has high entropy.
-- A sorted list has low entropy.
+In sorting, A random list has high entropy & A sorted list has low entropy.
 
 Sorting works by reducing entropy and organizing the data.
 
@@ -57,10 +55,8 @@ Normal insertion sort checks that it does not go past the beginning of the array
 
 Unguarded insertion sort removes that check because it assumes there is already a very small value at the beginning of the array (called a sentinel).
 
-Why it is faster:
-- It removes one `if` check inside the loop.
-- Fewer checks mean fewer CPU prediction mistakes.
-- The loop becomes simpler and runs faster.
+it is faster because  It removes one `if` check inside the loop. Fewer checks mean fewer CPU prediction mistakes.
+and lastly, The loop becomes simpler and runs faster.
 
 The speaker suggests using `make_heap()` first. This helps guarantee a safe smallest value exists, so the guard is no longer needed.
 
@@ -133,10 +129,6 @@ The most surprising thing I learned was that an algorithm can do more comparison
 
 Yes, it has.
 
-In the future, I will:
-- Reduce unnecessary `if` statements inside loops.
-- Think about how often conditions are true or false.
-- Keep frequently used code separate from rarely used code.
-- Consider how the CPU executes instructions, not just algorithm complexity.
+In the future, I will Reduce unnecessary `if` statements inside loops and Think about how often conditions are true or false.I will also Keep frequently used code separate from rarely used code and Consider how the CPU executes instructions, not just algorithm complexity.
 
 Before watching this video, I focused mostly on algorithm complexity. Now I understand that writing fast code also requires understanding how computers process instructions.
