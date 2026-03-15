@@ -1,0 +1,26 @@
+PART C REFLECTION 
+
+
+Insert Function
+
+The insert function adds a new value to the linked list in the correct sorted position. 
+To find the right place, the program checks the nodes starting from the front of the list.
+ In the worst case, it may need to check every node. Because of this, the time complexity is O(n).
+
+Remove Function
+
+The remove function searches the list to find the node that contains the value. 
+When it finds the node, it updates the pointers to remove it from the list. In the worst case, 
+It may check every node before finding the value. Therefore, the time complexity is O(n).
+
+is_present Function
+
+The is_present function checks if a value exists in the list. 
+It starts at the front and looks at each node until it finds the value or reaches the end. Since 
+it may check every node, the time complexity is O(n).
+
+Length Function
+
+The __len__ function returns the number of values in the list. The list keeps track of this number 
+using a variable, so the program does not need to go through the nodes. Because of this, the time 
+complexity is O(1).
